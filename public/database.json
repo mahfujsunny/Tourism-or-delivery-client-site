@@ -1,0 +1,91 @@
+[
+  {
+    "services": [
+      {
+        "name": "Amalfi Costa, Italy",
+        "price": "$300/Per Person",
+        "duration": "7 Days/6 night",
+        "image": "",
+        "description": ""
+      },
+      {
+        "name": "Lake Geneva, France",
+        "price": "$300/Per Person",
+        "duration": "5 Days/6 night",
+        "image": "",
+        "description": ""
+      },
+      {
+        "name": "French Rivira, France",
+        "price": "$300/Per Person",
+        "duration": "4 Days/5 night",
+        "image": "",
+        "description": ""
+      },
+      {
+        "name": "Mount Dtna, Italyr",
+        "price": "$300/Per Person",
+        "duration": "2 Days/1 night",
+        "image": "",
+        "description": ""
+      },
+      {
+        "name": "Lake Garda, Italy",
+        "price": "$300/Per Person",
+        "duration": "5 Days/4 night",
+        "image": "",
+        "description": ""
+      },
+      {
+        "name": "Paris",
+        "price": "$300/Per Person",
+        "duration": "4 Days/3 night",
+        "image": "",
+        "description": ""
+      },
+      {
+        "name": "Bromo Mountain",
+        "price": "$300/Per Person",
+        "duration": "7 Days/8 night",
+        "image": "",
+        "description": ""
+      },
+      {
+        "name": "Waterfall",
+        "price": "$300/Per Person",
+        "duration": "5 Days/6 night",
+        "image": "",
+        "description": ""
+      },
+      {
+        "name": "Peaceful Lake",
+        "price": "$300/Per Person",
+        "duration": "4 Days/5 night",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "hotels": [
+      {
+        "name": "DELUXE ROOM",
+        "price": "$130 / Night",
+        "image": "https://i.ibb.co/j39XVmg/Background.png"
+      },
+      {
+        "name": "DELUXE ROOM",
+        "price": "$240 / Night",
+        "image": "https://i.ibb.co/nfhyWZK/Room-2.jpg"
+      },
+      {
+        "name": "SINGLE ROOM",
+        "price": "$100 / Night",
+        "image": "https://i.ibb.co/bmp0bgZ/Room-3.jpg"
+      },
+      {
+        "name": "DOUBLE ROOM",
+        "price": "$130 / Night",
+        "image": "https://i.ibb.co/0QRqtDY/Room-4.jpg"
+      }
+    ]
+  }
+]
