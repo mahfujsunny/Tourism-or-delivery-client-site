@@ -1,0 +1,23 @@
+.menu-bar{
+    background: aqua;
+    border-bottom: 40px solid rgba(0, 0, 0, 0.09);
+    border-radius: 0 0 100px 100px;
+    -webkit-border-radius: 0 0 100px 100px;
+    -moz-border-radius: 0 0 100px 100px;
+    -ms-border-radius: 0 0 100px 100px;
+    -o-border-radius: 0 0 100px 100px;
+} 
+
+.nav-style {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.nav-style:hover{
+    color: rgb(0, 245, 233);
+    background: rgba(0, 0, 0, 0.672);
+    box-shadow: 2px 2px 2px black;
+}

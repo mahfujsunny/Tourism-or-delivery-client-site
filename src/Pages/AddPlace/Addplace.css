@@ -1,0 +1,8 @@
+.addplace-style form{
+    background: rgb(232, 13, 13); 
+    width: 500px;   
+}
+
+input {
+    margin: 5px;
+}

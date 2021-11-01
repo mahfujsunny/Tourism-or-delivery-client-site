@@ -1,0 +1,15 @@
+.custom-style {
+    /* height: 450px; */
+    /* border-radius: 50px; */
+    margin-bottom: 5px;
+}
+
+.custom-style:hover {
+    box-shadow: 0 5px 10px black;
+}
+
+.custom-style img {
+    /* width: 150px;
+    height: 150px; */
+    margin: 10px auto;
+}

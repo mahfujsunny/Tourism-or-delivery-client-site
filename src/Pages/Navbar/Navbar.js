@@ -11,8 +11,12 @@ import NotFound from '../NotFound/NotFound';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import About from '../About us/About';
-// import PrivateRoute from '../Login/PrivateRoute/PrivateRoute';
+import PrivateRoute from '../Login/PrivateRoute/PrivateRoute';
 import Login from '../Login/Login';
+import Booking from '../Booking/Booking';
+import Addplace from '../AddPlace/Addplace';
+import MyOrders from '../MyOrders/MyOrders';
+import ManageAllOrders from '../Manage-orders/ManageAllOrders';
 
 const Navbar = () => {
     return (
@@ -32,9 +36,18 @@ const Navbar = () => {
                     <Route exact path="/services">
                         <Services></Services>
                     </Route>
-                    {/* <PrivateRoute exact path="/bookDoctor/:doctorid">
-                      <BookDoctor></BookDoctor>
-                    </PrivateRoute> */}
+                    <PrivateRoute exact path="/services/:bookingid">
+                      <Booking></Booking>
+                    </PrivateRoute>
+                    <Route path="/addplace">
+                        <Addplace></Addplace>
+                    </Route>
+                    <Route path="/myOrders">
+                        <MyOrders></MyOrders>
+                    </Route>
+                    <Route path="/orders">
+                        <ManageAllOrders></ManageAllOrders>
+                    </Route>
                     <Route exact path="/hotels">
                         <Hotels></Hotels>
                     </Route>

@@ -5,9 +5,9 @@ const Services = (props) => {
     const [service , setService] = useState([]);
     
     useEffect(()=> {
-        fetch('./database.json')
+        fetch('https://intense-taiga-74741.herokuapp.com/services')
         .then(res => res.json())
-        .then(data => setService(data[0].services) )
+        .then(data => setService(data) )
     },[])
 
     return (
@@ -16,7 +16,8 @@ const Services = (props) => {
             <div className="row">
                 
             {
-                service.map(service => <Service 
+                service.map(service => <Service
+                key = {service.id} 
                 service={service}>
 
                 </Service>)

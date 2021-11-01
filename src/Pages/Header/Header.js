@@ -1,20 +1,38 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
+import './Header.css';
 
 const Header = () => {
     const { user, logOut} = useAuth();
 
     return (
-        <div>
-           <Link to='/home'>Home</Link> 
-           <Link to='/about'>About</Link> 
-           <Link to='/services'>Services</Link> 
-           <Link to='/hotels'>Hotels</Link> 
+        <div className="menu-bar">
+           <Link className="nav-style"  to='/home'>Home</Link> 
+           <Link className="nav-style"  to='/about'>About</Link> 
+           {/* {user?.email && 
+                <Link className="nav-style"  to='/services'>Services</Link>  
+            }  */}
+            {user?.email && 
+                 <Link className="nav-style"  to='/hotels'>Hotel Rooms</Link>  
+            } 
+
+           {user?.email && 
+                <Link className="nav-style"  to='/addplace'>Add Place</Link>  
+           }
+
+           {user?.email && 
+                <Link className="nav-style"  to='/myOrders'>My Orders</Link>  
+           }
+
+           {user?.email && 
+                <Link className="nav-style"  to='/orders'>Manage All Bookings</Link>  
+           } 
+  
            {   
-                    user?.email ? <button className="menu-bar" onClick={logOut}>LogOut</button>
+                    user?.email ? <button className="nav-style" onClick={logOut}>LogOut</button>
                     :
-                    <Link className="menu-bar" to="/login">Login</Link>
+                    <Link className="nav-style"  to="/login">Login</Link>
 
             }
         </div>

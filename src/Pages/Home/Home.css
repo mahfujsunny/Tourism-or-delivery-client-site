@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(159, 244, 255, 0.768);
+}
+
 .banner {
     background: url('https://i.ibb.co/HBgPCns/wallup-net.jpg') no-repeat;
     background-size: cover;
